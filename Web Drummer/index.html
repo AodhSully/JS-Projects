@@ -6,11 +6,18 @@
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+  <script></script>
 </head>
 
 <body background="images/drums.jpg">
 
-  <h1 class="title">Web Drummer</h1>
+  <h1 class="title">Drummer</h1>
+
+  <div class="click">
+    <!-- <div class="clicks"> -->
+    <input id="clickMe" type="button" value="CLICK ME" onclick="playSequence()" src="drum.js" />
+    <!-- </div> -->
+  </div>
 
   <div class="keys">
     <div data-key="65" class="key">
@@ -61,9 +68,9 @@
   <audio data-key="75" src="sounds/ride.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
-  <script src="drum.js">
-  </script>
+  <!-- <script src="clicker.js"></script> -->
 
+  <script src="drum.js"></script>
 
 </body>
 
