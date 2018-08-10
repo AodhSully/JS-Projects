@@ -11,7 +11,7 @@ function playSequence() {
   var keyArray = [65, 72, 68, 72,
                   83, 72, 65, 83,
                   65, 72, 68, 72,
-                  68, 72, 68  ];
+                  83, 72, 68  ];
     // var keyArray = [65, 72, 68, 72, 83, 72,  65, 83, 68, 72 ];
   var promise = Promise.resolve();
 
